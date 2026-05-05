@@ -17,7 +17,7 @@ $(call inherit-product, vendor/infinity/config/common_full_tablet.mk)
 
 # Device identifier
 PRODUCT_DEVICE := gta4l
-PRODUCT_NAME := infinity_gta4l
+PRODUCT_NAME := lineage_gta4l
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
 PRODUCT_MANUFACTURER := samsung
