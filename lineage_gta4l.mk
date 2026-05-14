@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/gta4l/device.mk)
 
 # Inherit some common Infinity-X stuff (بدل Lineage)
-$(call inherit-product, vendor/infinity/config/common_full_tablet.mk)
+$(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
 
 # Device identifier
 PRODUCT_DEVICE := gta4l
