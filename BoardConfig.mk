@@ -49,3 +49,7 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/system_ext/private
 
 # inherit from the proprietary version
 include vendor/samsung/gta4l/BoardConfigVendor.mk
+
+# Fix crDroid health compat
+SOONG_CONFIG_NAMESPACES += lineage_health
+SOONG_CONFIG_lineage_health_charging_control_supports_bypass :=
