@@ -30,3 +30,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=samsung/gta4leea/gta4l:12/SP1A.210812.016/T505XXS8CXG1:user/release-keys \
     DeviceProduct=gta4lxx \
     SystemName=gta4lxx
+
+# Maintainer flag
+MATRIXX_MAINTAINER := MkProMVP
