@@ -22,22 +22,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/gta4l/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/matrexx/config/common_full_tablet.mk)
+$(call inherit-product, vendor/matrixx/config/common_full_tablet.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gta4l
-PRODUCT_NAME := matrexx_gta4l
+PRODUCT_NAME := matrixx_gta4l
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
 PRODUCT_MANUFACTURER := samsung
 
 # Matrexx Flags
 MATRIXX_MAINTAINER := MkProMVP
-
-# MistOS Flags
-MISTOS_MAINTAINER := Mkpromvp 
 WITH_GMS := true
-TARGET_USES_PICO_GAPPS := true
 TARGET_ENABLE_BLUR := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
