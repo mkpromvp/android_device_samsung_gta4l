@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gta4l.mk
+    $(LOCAL_DIR)/voltage_gta4l.mk
+
+COMMON_LUNCH_CHOICES := \
+    voltage_gta4l-user \
+    voltage_gta4l-userdebug \
+    voltage_gta4l-eng
