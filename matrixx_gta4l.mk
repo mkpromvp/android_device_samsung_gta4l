@@ -33,8 +33,6 @@ PRODUCT_MANUFACTURER := samsung
 
 # Matrexx Flags
 MATRIXX_MAINTAINER := MkProMVP
-WITH_GMS := true
-TARGET_ENABLE_BLUR := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
