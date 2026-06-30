@@ -31,8 +31,6 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T505
 PRODUCT_MANUFACTURER := samsung
 
-# Matrexx Flags
-MATRIXX_MAINTAINER := MkProMVP
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
