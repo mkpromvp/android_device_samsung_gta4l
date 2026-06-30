@@ -14,9 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/matrixx_gta4l.mk
-
-COMMON_LUNCH_CHOICES := \
-    matrixx_gta4l-user \
-    matrixx_gta4l-userdebug \
-    matrixx_gta4l-eng
+    $(LOCAL_DIR)/lineage_gta4l.mk
